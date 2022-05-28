@@ -1691,8 +1691,7 @@
 		-ms-transition: color 0.2s ease, border-bottom 0.2s ease;
 		transition: color 0.2s ease, border-bottom 0.2s ease;
 		text-decoration: none;
-		border-bottom: dotted 1px;
-		color: inherit;
+		color:  #0000FF;
 	}
 
 		a:hover {
@@ -1731,7 +1730,7 @@
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
+			color: #E983D8;
 			text-decoration: none;
 		}
 
