@@ -1,354 +1,670 @@
-<!DOCTYPE HTML>
-<!--
-	Stellar by HTML5 UP
-	html5up.net
--->
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <link href="images/shivani_favicon.png" rel="icon"/>
-    <title>Shivani Tyagi</title>
-    <meta charset="utf-8"/>
-    <meta content="width=device-width, initial-scale=1" name="viewport"/>
-    <!--[if lte IE 8]>
-    <script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-    <link href="assets/css/main.css" rel="stylesheet"/>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portfolio Shivani</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-    <!--[if lte IE 9]>
-    <link rel="stylesheet" href="assets/css/ie9.css"/><![endif]-->
-    <!--[if lte IE 8]>
-    <link rel="stylesheet" href="assets/css/ie8.css"/><![endif]-->
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
 </head>
-<body>
-<!-- Wrapper -->
-<div id="wrapper">
-    <!-- Header -->
 
-    <header class="alt" id="header">
-        <span class="logo"><img alt="" src="images/logo_new.jpg" height="150px"/></span>
-        <h1>Hi, I am <b>Shivani Tyagi</b></h1>
-        <p>Full-Stack Data Scientist | Teaching Assistant @ Thompson Rivers University | President @ TRUSU Data Science Club
-        </p>
-        <p>I'm a Machine Learning enthusiast, with an intellectual curiosity & the ability to dive deep into data to
-            find patterns using statistical approaches and to build meaningful insights for scalable Machine Learning
-            models.My career focus has been on building scalable, AI-driven solutions that are  production-ready. 
-            While I’m always learning, I’m quick to adapt and passionate about solving real-world problems with machine learning.</p>
-    </header>
+<body class="index-page">
 
-    <!-- Nav -->
-    <nav id="nav">
-        <ul>
-            <li><a class="active" href="#experience"><b>Experience</b></a></li>
-            <li><a href="#education"><b>Education</b></a></li>
-            <li><a href="#projects"><b>Projects</b></a></li>
-            <li><a href="#published_work"><b>Published Work</b></a></li>
-            <li><a href="#skills"><b>Skills</b></a></li>
-        </ul>
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+      <img src="assets/img/logo_new.png" alt="" class="img-fluid rounded-circle">
+    </div>
+
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <!-- Uncomment the line below if you also wish to use an image logo -->
+      <!-- <img src="assets/img/logo.png" alt=""> -->
+      <h1 class="sitename">Shivani Tyagi</h1>
+    </a>
+
+    <div class="social-links text-center">
+        <a href="https://www.linkedin.com/in/shivani-tyagi-09/" class="linkedin" target="_blank" title="LinkedIn">
+    <i class="bi bi-linkedin"></i>
+  </a>
+  <a href="https://github.com/SHIVITG" class="github" target="_blank" title="GitHub">
+    <i class="bi bi-github"></i>
+  </a>
+  <a href="mailto:shivanitg09@gmail.com" class="email" title="Email">
+    <i class="bi bi-envelope-fill"></i>
+  </a>
+  <a href="https://www.upwork.com/freelancers/~019f7c5b2ce7b776aa?viewMode=1" class="upwork" target="_blank" title="Upwork">
+    <i class="bi bi-briefcase-fill"></i>
+  </a>
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#" class="active"><i class="bi bi-house-door-fill navicon"></i> Home</a></li>
+        <li><a href="#about"><i class="bi bi-person-vcard-fill navicon"></i> About</a></li>
+        <li><a href="#resume"><i class="bi bi-journal-text navicon"></i> Resume</a></li>
+        <li><a href="#skills"><i class="bi bi-lightbulb-fill navicon"></i> Skills</a></li>
+        <li><a href="#publications"><i class="bi bi-journal-richtext navicon"></i> Publications</a></li>
+        <li><a href="#projects"><i class="bi bi-kanban-fill navicon"></i> Projects</a></li>
+        <li><a href="#contact"><i class="bi bi-envelope-fill navicon"></i> Contact</a></li>
+
+      </ul>
     </nav>
 
-    <!-- Main -->
-    <div id="main">
+  </header>
 
+  <main class="main">
 
-        <!-- Experience -->
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
 
-        <section class="main special" id="experience">
-            
-            <header class="major">
-                <h2>Experience</h2>
-            </header>
-            <ul class="features">
-                <li>
-                    <span class="image"><img alt="" height="50px" src="images/DSClub.png" width="50px"/></span>
-                    <h3><b>President at <a href="https://www.linkedin.com/company/trusu-data-science-club/">TRUSU Data Science Club</a></b></h3>
-                    <h4> Kamloops, Canada </h4>
-                    <h5> August 2024 - June 2025 </h5>
-                </li>
-                <li>
-                    <span class="image"><img alt="" height="100px" src="images/TRU_Logo.png" width="350px"/></span>
-                    <h3><b>Teaching Assistant at <a href="https://www.tru.ca/science.html/">Faculty of Science, Thompson Rivers University</a></b></h3>
-                    <h4> Kamloops, Canada </h4>
-                    <h5> September 2024 - April 2025 </h5>
-                </li>
-                <li>
-                    <span class="image"><img alt="" height="50px" src="images/pic01.jpg" width="50px"/></span>
-                    <h3><b>Data Scientist at <a href="https://wisestep.com/">WiseStep</a></b></h3>
-                    <h4> Hyderabad, Telangana, India </h4>
-                    <h5> April 2022 - July 2024 </h5>
-                </li>
-                <li>
-                    <span class="image"><img alt="" height="50px" src="images/pic02.jpg" width="50px"/></span>
-                    <h3><b>Data Scientist at <a href="https://www.uniqreate.com/">UniQreate</a></b></h3>
-                    <h4> Banglore, India </h4>
-                    <h5> February 2021 - April 2022 </h5>
-                </li>
-                <li>
-                    <span class="image"><img alt="" height="50px" src="images/pic03.jpg" width="50px"/></span>
-                    <h3><b>Natural Language Processing Engineer at <a href="https://www.scanta.io/product">
-                        Scanta</a></b></h3>
-                    <h4> Gurgoan, India </h4>
-                    <h5> September 2017 - February 2021 </h5>
-                </li>
-                <!--									<li>-->
-                <!--										<span class="image"><img src="images/pic04.jpg" alt="" width="50px" height="50px"/></span>-->
-                <!--										<h3><b>Cyber Security + Machine Learing Training : Internship</b></h3>-->
-                <!--										<h4> CDAC Noida, India </h4>-->
-                <!--										<h5>  December 2018 - June 2019 </h5>-->
-                <!--									</li>-->
+      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" class="">
 
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <h2>Shivani Tyagi</h2>
+        <p>I'm <span class="typed" data-typed-items="Data Scientist, NLP Engineer, Teaching Asistant">Data Scientist</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+<!-- About Section -->
+<section id="about" class="about section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>About</h2>
+    <p>Data Scientist with 6+ years’ experience, in the capacity of both individual contributor and team lead, seeking opportunities, with a commitment to continuous learning and delivering valuable insights for diverse use cases in the field of Natural Language Processing and Computer Vision.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row gy-4 justify-content-center">
+      <div class="col-lg-4">
+        <img src="assets/img/my-profile-img.png" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-8 content">
+        <h2>Data Scientist &amp; AI Practitioner</h2>
+        <p class="fst-italic py-3">
+          Passionate about building scalable AI-driven solutions and solving real-world problems through the lens of data science.
+        </p>
+        <div class="row">
+          <div class="col-lg-6">
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Kamloops, BC, Canada</span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>shivani.tg94@yahoo.com</span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>LinkedIn:</strong> <span><a href="https://www.linkedin.com/in/shivani-tyagi-09/" target="_blank">shivani-tyagi-09</a></span></li>
             </ul>
+          </div>
+        </div>
+        <p class="py-3">
+          With a strong foundation in NLP, ML, and Computer Vision, I bring a hands-on approach to applied data science. I'm highly adaptable and thrive on driving insights from data to guide business decisions and enhance user experience.
+        </p>
+      </div>
+    </div>
 
-        </section>
+  </div>
 
-        <!-- Eduction -->
+</section><!-- /About Section -->
 
-        <section class="main special" id="education">
-            <header class="major">
-                <h2>Education</h2>
-            </header>
-            <div class="spotlight">
-                <div class="content">
-                    <header class="major">
-                        <h3 align="left"><b>Master of Technology - MTech, Computer Science (2017 - 2019)</b></h3>
-                        <h4 align="left"><b><a href="https://www.jiit.ac.in/">Jaypee University of Information
-                            Technology</a> </b></h4>
-                    </header>
-                    <ui align="left">
-                        <li>Branch: Computer Science & Engineering with Machine Learning as specialization , Secured an
-                            overall score of 8.3 CGPA
-                        </li>
-                        <li>Published two research papers and a chapter on findings related to the Imbalanced Data
-                            Classification Problem in ML
-                        </li>
-						<li>Proposed a new undersampling approach “NOL- Neighbors on Line”-R & Python</li>
-                        <li>Worked with Resampling Techniques to handle imbalanced dataset-R & Python</li>
+ <!-- Resume Section -->
+<section id="resume" class="resume section light-background">
 
-                        <li>Data Mining Project About Recognizing Human Activity-Python</li>
-                    </ui>
-                </div>
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Resume</h2>
+    <p>Here is a summary of my professional experience and education in data science, NLP, and software engineering.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+    <div class="row">
+
+      <!-- Left Column -->
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+        <h3 class="resume-title">Experience</h3>
+
+        <div class="resume-item">
+          <h4><strong>Teaching Assistant, Faculty of Science</strong></h4>
+          <h5>Sept 2024 – Apr 2025</h5>
+          <p><em>Thompson Rivers University, Kamloops, BC, Canada</em></p>
+          <ul>
+            <li>Delivered tutorials and labs for AI, Applied Data Science Project I, Intro to Programming, Applied Data with Python, and Database Systems I.</li>
+          </ul>
+        </div>
+
+        <div class="resume-item">
+          <h4><strong>Full-Stack Data Scientist</strong></h4>
+          <h5>Apr 2022 – July 2024</h5>
+          <p><em>Wise-step Inc., Hyderabad, India</em></p>
+          <p><strong>Tech Stack:</strong> Python, Flask, Elasticsearch, Kibana, NLTK, spaCy, Transformers, Regex, Airflow, AWS, LLMs</p>
+          <ul>
+            <li>Developed an NLP-based industry classifier with 67% macro-F1 for matching jobs and candidates.</li>
+            <li>Built resume and job description parsers processing over 1M resumes monthly with 85% accuracy.</li>
+            <li>Automated workflows with Airflow and created dashboards for customer success insights.</li>
+          </ul>
+        </div>
+
+        <div class="resume-item">
+          <h4><strong>Data Scientist</strong></h4>
+          <h5>Feb 2021 – Apr 2022</h5>
+          <p><em>Uniqreate, Bengaluru, India</em></p>
+          <p><strong>Tech Stack:</strong> Python, Java, Docker, Computer Vision</p>
+          <ul>
+            <li>Built parsing pipelines and automated document processing with Computer Vision models and bash scripts.</li>
+          </ul>
+        </div>
+
+        <div class="resume-item">
+          <h4><strong>NLP Engineer</strong></h4>
+          <h5>Sept 2019 – Feb 2021</h5>
+          <p><em>Scanta Inc., Gurugram, India</em></p>
+          <p><strong>Tech Stack:</strong> Python, Flask, Huggingface, NLTK, Sklearn, Docker, T-SQL, HTML, CSS, JS, spaCy</p>
+          <ul>
+            <li>Developed anomaly detection dashboards for virtual assistants.</li>
+            <li>Built transformer-based paraphrasers and deployed NLP apps on AWS.</li>
+            <li>Led end-to-end engineering across multiple production pipelines.</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Right Column -->
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+        <h3 class="resume-title">Education</h3>
+
+        <div class="resume-item">
+          <h4><strong>Post-Graduate Diploma in Applied Data Science</strong></h4>
+          <h5>Sept 2023 – May 2025</h5>
+          <p><em>Thompson Rivers University, Kamloops, BC, Canada</em></p>
+          <ul>
+            <li>GPA: 4.09</li>
+            <li>President, Data Science Club – Secured $10,000+ funding and NVIDIA sponsorship</li>
+            <li>Student Caucus Member, International Student Affairs Committee (2023–2024)</li>
+          </ul>
+        </div>
+
+        <div class="resume-item">
+          <h4><strong>Master of Technology (MTech) in Computer Science & Engineering</strong></h4>
+          <h5>Sept 2017 – May 2019</h5>
+          <p><em>Jaypee University of Information Technology, India</em></p>
+        </div>
+
+        <div class="resume-item">
+          <h4><strong>Bachelor of Technology (BTech) in Computer Science Engineering</strong></h4>
+          <h5>Sept 2013 – May 2017</h5>
+          <p><em>Raj Kumar Goel Institute of Technology, India</em></p>
+        </div>
+
+        <h3 class="resume-title">Consulting</h3>
+
+        <div class="resume-item">
+          <h4><strong>Data Science Consultant (Remote)</strong></h4>
+          <h5>2021 – 2024</h5>
+          <p><em>Scanta Inc., Gurugram, India</em></p>
+          <ul>
+            <li>Led ML solution planning for NLP-based client products.</li>
+          </ul>
+        </div>
+
+        <div class="resume-item">
+          <h4><strong>NLP Expert Consultant (Remote)</strong></h4>
+          <h5>2022</h5>
+          <p><em>Accuracy via Upwork, Singapore</em></p>
+          <ul>
+            <li>Built LLM-powered QA systems for extracting insights from aircraft manuals and legal docs.</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+</section><!-- /Resume Section -->
+
+<!-- Skills Section -->
+<section id="skills" class="skills section">
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Skills</h2>
+    <p>Technologies and tools I have hands-on experience with across Data Science, NLP, and Software Engineering.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row">
+      <div class="col-lg-12 d-flex flex-wrap justify-content-center align-items-center gap-4">
+        <div class="text-center">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="60" height="60"/>
+          <div>Python</div>
+        </div>
+        <div class="text-center">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn" width="60" height="60"/>
+          <div>Scikit-learn</div>
+        </div>
+        <div class="text-center">
+          <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="TensorFlow" width="60" height="60"/>
+          <div>TensorFlow</div>
+        </div>
+        <div class="text-center">
+          <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="PyTorch" width="60" height="60"/>
+          <div>PyTorch</div>
+        </div>
+        <div class="text-center">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="60" height="60"/>
+          <div>JavaScript</div>
+        </div>
+        <div class="text-center">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React" width="60" height="60"/>
+          <div>React</div>
+        </div>
+        <div class="text-center">
+          <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="Google Cloud" width="60" height="60"/>
+          <div>GCP</div>
+        </div>
+        <div class="text-center">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="Docker" width="60" height="60"/>
+          <div>Docker</div>
+        </div>
+        <div class="text-center">
+          <img src="https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg" alt="Kafka" width="60" height="60"/>
+          <div>Kafka</div>
+        </div>
+        <div class="text-center">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="60" height="60"/>
+          <div>MySQL</div>
+        </div>
+        <div class="text-center">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" width="60" height="60"/>
+          <div>MongoDB</div>
+        </div>
+        <div class="text-center">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="MATLAB" width="60" height="60"/>
+          <div>MATLAB</div>
+        </div>
+        <div class="text-center">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original-wordmark.svg" alt="Flask" width="60" height="60"/>
+          <div>Flask</div>
+        </div>
+        <div class="text-center">
+          <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="Seaborn" width="60" height="60"/>
+          <div>Seaborn</div>
+        </div>
+        <div class="text-center">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="Pandas" width="60" height="60"/>
+          <div>Pandas</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- /Skills Section -->
+
+
+<!-- Publications Section -->
+<section id="publications" class="resume section light-background">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Publications</h2>
+    <p>Selected research papers and book chapters published in peer-reviewed conferences and journals.</p>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="resume-item">
+          <h4><strong>Investigating the Transformative Impact of Generative AI on Academic Integrity</strong></h4>
+          <p><a href="https://ieeexplore.ieee.org/document/10551108" target="_blank">Published in IEEE CACCT-2024</a></p>
+        </div>
+
+        <div class="resume-item">
+          <h4><strong>Neighbors Online (NoL): An Approach to Balance Skewed Datasets</strong></h4>
+          <p><a href="https://link.springer.com/chapter/10.1007/978-981-15-4936-6_42" target="_blank">Published in Springer ICIMMI-2019</a></p>
+        </div>
+
+        <div class="resume-item">
+          <h4><strong>Performance Evaluation of Machine Learning Algorithms for Credit Card Fraud Detection</strong></h4>
+          <p><a href="https://ieeexplore.ieee.org/document/8776925" target="_blank">Published in IEEE Confluence-2019</a></p>
+        </div>
+
+        <div class="resume-item">
+          <h4><strong>Book Chapters</strong></h4>
+          <ul>
+            <li><a href="https://link.springer.com/chapter/10.1007/978-3-030-22277-2_26" target="_blank">Computational Techniques for Real-Time Credit Card Fraud Detection</a>, CNCS-2019</li>
+            <li><a href="https://link.springer.com/chapter/10.1007/978-3-030-29407-6_17" target="_blank">Sampling Approaches for Imbalanced Data Classification</a>, ICRIC-2019</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section><!-- /Publications Section -->
+
+<!-- Projects Section -->
+<section id="projects" class="projects section">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Projects</h2>
+    <p>Highlighted data science and machine learning projects demonstrating practical applications and hands-on experience.</p>
+  </div>
+  <div class="container">
+    <div class="row" data-aos="fade-up" data-aos-delay="100">
+
+      <!-- Project Card -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card h-100 shadow" style="box-shadow: 0 4px 20px rgba(0, 123, 255, 0.4);">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Customer Churn Prediction using ANN</h5>
+            <p class="card-text">Implemented an Artificial Neural Network for predicting customer churn in the banking sector using historical data.</p>
+            <p><strong>Tools:</strong> Jupyter Notebook, TensorFlow, Keras</p>
+            <a href="https://github.com/SHIVITG/Deep-Learning-Neural-Networks" target="_blank" class="btn btn-outline-primary btn-sm">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Card -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card h-100 shadow" style="box-shadow: 0 4px 20px rgba(255, 193, 7, 0.4);">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Anomaly Detection in Text Data</h5>
+            <p class="card-text">Built a solution for detecting anomalies in unstructured text data using machine learning techniques.</p>
+            <p><strong>Tools:</strong> R, ML Algorithms</p>
+            <a href="https://github.com/SHIVITG/Text_Anomaly_Detection" target="_blank" class="btn btn-outline-primary btn-sm">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Card -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card h-100 shadow" style="box-shadow: 0 4px 20px rgba(40, 167, 69, 0.4);">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Exploring Immigration Trends in Canada</h5>
+            <p class="card-text">Analyzed how population and weather factors influence immigrants’ choices of cities/provinces in Canada.</p>
+            <p><strong>Tools:</strong> HTML, Data Visualization, Statistical Analysis</p>
+            <a href="https://github.com/SHIVITG/Exploring-Immigration-Trends-in-Canada" target="_blank" class="btn btn-outline-primary btn-sm">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Card -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card h-100 shadow" style="box-shadow: 0 4px 20px rgba(220, 53, 69, 0.4);">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Airbnb NYC Listings Analysis</h5>
+            <p class="card-text">Performed data wrangling, analysis, and visualization of Airbnb NYC listings. Conducted regression and classification analysis and hypothesis testing.</p>
+            <p><strong>Tools:</strong> Jupyter Notebook, Pandas, Matplotlib, Seaborn</p>
+            <a href="https://github.com/SHIVITG/AirBnb-NYC-Listing" target="_blank" class="btn btn-outline-primary btn-sm">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Additional Projects -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card h-100 shadow" style="box-shadow: 0 4px 20px rgba(102, 16, 242, 0.4);">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Titanic ML Disaster Prediction</h5>
+            <p class="card-text">Built machine learning pipelines for survival prediction on Titanic dataset using exploratory analysis and model tuning.</p>
+            <p><strong>Tools:</strong> Jupyter Notebook, Scikit-learn, Pandas</p>
+            <a href="https://github.com/SHIVITG/Titanic-ML-Disaster-Prediction" target="_blank" class="btn btn-outline-primary btn-sm">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card h-100 shadow" style="box-shadow: 0 4px 20px rgba(255, 87, 34, 0.4);">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Analyzing Migration Trends in Canada</h5>
+            <p class="card-text">Explored interprovincial migration patterns in Canada using historical census and weather data.</p>
+            <p><strong>Tools:</strong> Jupyter Notebook, Python</p>
+            <a href="https://github.com/SHIVITG/Analyzing-Migration-Trends-in-Canada" target="_blank" class="btn btn-outline-primary btn-sm">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card h-100 shadow" style="box-shadow: 0 4px 20px rgba(0, 123, 255, 0.4);">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Signature Detection Analysis</h5>
+            <p class="card-text">Implemented image-based signature authentication using neural networks and OpenCV.</p>
+            <p><strong>Tools:</strong> TensorFlow, OpenCV, Python</p>
+            <a href="https://github.com/SHIVITG/Signature_Detection_Analysis" target="_blank" class="btn btn-outline-primary btn-sm">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card h-100 shadow" style="box-shadow: 0 4px 20px rgba(40, 167, 69, 0.4);">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Fine-Tuning Phi-2 LLM using PEFT + QLoRA</h5>
+            <p class="card-text">Demonstrated task-specific fine-tuning of LLMs using PEFT and QLoRA strategies in a reproducible workshop.</p>
+            <p><strong>Tools:</strong> HuggingFace, Transformers, QLoRA</p>
+            <a href="https://github.com/SHIVITG/FineTune-Phi-2-LLM-using-PEFT-QLora" target="_blank" class="btn btn-outline-primary btn-sm">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section><!-- /Projects Section -->
+
+
+
+<!-- Testimonials Section -->
+<section id="testimonials" class="testimonials section light-background">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Recommendations</h2>
+    <p>What my colleagues say about working with me</p>
+  </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="swiper init-swiper">
+      <script type="application/json" class="swiper-config">
+        {
+          "loop": true,
+          "speed": 600,
+          "autoplay": {
+            "delay": 5000
+          },
+          "slidesPerView": "auto",
+          "pagination": {
+            "el": ".swiper-pagination",
+            "type": "bullets",
+            "clickable": true
+          },
+          "breakpoints": {
+            "320": {
+              "slidesPerView": 1,
+              "spaceBetween": 40
+            },
+            "1200": {
+              "slidesPerView": 2,
+              "spaceBetween": 30
+            }
+          }
+        }
+      </script>
+      <div class="swiper-wrapper">
+
+        <!-- Testimonial: Nitika Kamboj -->
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              I have worked with Shivani on multiple data science projects. The zeal and enthusiasm that she has for problem solving gives her a never give up attitude. She knows how to torture the data enough to get the story out. As a data science practitioner she earns my highest recommendation.
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/image.png" class="testimonial-img" alt="Nitika Kamboj">
+            <h3>Nitika Kamboj</h3>
+            <h4>Applied Scientist II, Junglee Games</h4>
+          </div>
+        </div>
+
+        <!-- Testimonial: Samar Srivastava -->
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              Shivani is the ideal teammate and partner. She is constantly searching for improvements, proactively working on action items, and consistently over-delivering on every task. Her analytic and problem-solving capabilities are extremely strong and a person I always relish working with. She earns my highest recommendation.
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/image1.png" class="testimonial-img" alt="Samar Srivastava">
+            <h3>Samar Srivastava</h3>
+            <h4>Full-Stack Data Scientist (NLP & ML)</h4>
+          </div>
+        </div>
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </div>
+
+</section><!-- /Testimonials Section -->
+
+
+<!-- Contact Section -->
+<section id="contact" class="contact section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Contact</h2>
+    <p>Feel free to reach out to me for opportunities, collaborations, or any inquiries.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="row gy-4">
+
+      <div class="col-lg-5">
+
+        <div class="info-wrap">
+          <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+            <i class="bi bi-geo-alt flex-shrink-0"></i>
+            <div>
+              <h3>Address</h3>
+              <p>Kamloops, British Columbia, Canada</p>
             </div>
-            <div class="spotlight">
-                <div class="content">
-                    <header class="major">
-                        <h3 align="left"><b>Bachelor's degree, Computer Science & Engineering (2013 - 2017)</b></h3>
-                        <h4 align="left"><b><a href="https://www.rkgit.edu.in/">Raj Kumar Goel Institute of Technology,
-                            Ghaziabad, India</a></b></h4>
-                    </header>
-                    <ui align="left">
-                        <li>Branch: Computer Science & Engineering , Secured 75.4%</li>
-                        <li>Website Sample For AICTE(All India Council For Technical Education)-Final Year BTech
-                            Project-Java
-                        </li>
-                    </ui>
-                </div>
+          </div><!-- End Info Item -->
+
+          <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+            <i class="bi bi-envelope flex-shrink-0"></i>
+            <div>
+              <h3>Email Me</h3>
+              <p>shivanitg09@gmail.com</p>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+            <i class="bi bi-linkedin flex-shrink-0"></i>
+            <div>
+              <h3>LinkedIn</h3>
+              <p><a href="https://www.linkedin.com/in/shivani-tyagi-09/" target="_blank">linkedin.com/in/shivani-tyagi-09</a></p>
+            </div>
+          </div><!-- End Info Item -->
+
+          <iframe src="https://www.google.com/maps?q=Kamloops,+British+Columbia,+Canada&output=embed"
+            frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+      <div class="col-lg-7">
+        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+          <div class="row gy-4">
+
+            <div class="col-md-6">
+              <label for="name-field" class="pb-2">Your Name</label>
+              <input type="text" name="name" id="name-field" class="form-control" required="">
             </div>
 
-        </section>
+            <div class="col-md-6">
+              <label for="email-field" class="pb-2">Your Email</label>
+              <input type="email" class="form-control" name="email" id="email-field" required="">
+            </div>
 
-        <!-- Projects -->
-        <section class="main special" id="projects">
+            <div class="col-md-12">
+              <label for="subject-field" class="pb-2">Subject</label>
+              <input type="text" class="form-control" name="subject" id="subject-field" required="">
+            </div>
 
-            <header class="major">
-                <h2>Projects</h2>
-            </header>
+            <div class="col-md-12">
+              <label for="message-field" class="pb-2">Message</label>
+              <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+            </div>
 
-            <footer class="major">
+            <div class="col-md-12 text-center">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
 
-                <ul class="features">
-                    <li>
-                        <span class="image"><img alt="" height="150px" src="images/CBA.jpg" width="150px"/></span>
-                        <h3><b>Conversation Analysis DashBoard</b></h3>
-                        <h4> Conversational analysis on active conversation data; applied some NLP strategies to perform
-                            domain-specific tasks for conversational AI, majorly focusing on security aspects. And raise
-                            flags based on low priority or high priority by categorizing anomalies in text.</h4>
-                    </li>
-                    <li>
-                        <span class="image"><img alt="" height="150px" src="images/ODM.jpg" width="150px"/></span>
-                        <h3><b>Object Detection Model</b></h3>
-                        <h4> Trained a convolutional neural network model in order to detect labels for multiple objects
-                            from given labelled image data. </h4>
-                    </li>
-                    <li>
-                        <span class="image"><img alt="" height="150px" src="images/IC.jpg" width="150px"/></span>
-                        <h3><b>Pattern Image Clustering</b></h3>
-                        <h4> Unsupervised image clustering based on similar layout features (RESNET50 used for Feature
-                            Extraction)</h4>
-                    </li>
-                    <li>
-                        <span class="image"><img alt="" height="150px" src="images/BR.jpg" width="150px"/></span>
-                        <h3><b>Non-Sentence & Sentence Block Relevance</b></h3>
-                        <h4> Applying NLP to textual blocks using single-word keyphrase & multi-word keyphrase lookup
-                            filters to mark the relevant blocks, alligned to business scope.</h4>
-                    </li>
-                    <li>
-                        <span class="image"><img alt="" height="150px" src="images/DPP.jpg" width="150px"/></span>
-                        <h3><b> Text Data Preprocessing Pipeline</b></h3>
-                        <h4> A pipeline to automate tasks like tokenization, lemmatization, and various other NLP
-                            preprocessing tasks by setting up a flexible sequential system for performing the
-                            preprocessing tasks that earlier need to be done manually one after another, based on
-                            requirements.
-                        </h4>
-                    </li>
-                    <li>
-                        <span class="image"><img alt="" height="150px" src="images/HAI.jpg" width="150px"/></span>
-                        <h3><b> Human Vs AI Model</b></h3>
-                        <h4> Tracking all the aspects of similarity between two inputs & text differentiation,
-                            classifying them based on language context usage</h4>
-                    </li>
+              <button type="submit">Send Message</button>
+            </div>
 
-
-                </ul>
-            </footer>
-        </section>
-
-        <!-- Published Work -->
-        <section class="main special" id="published_work">
-
-            <header class="major">
-                <h2>Published Work</h2>
-            </header>
-            <ul class="features">
-		<li>
-                    <div>
-                        <p><b>Investigating the Transformative Impact of Generative AI on Academic Integrity Across Diverse Educational Domains </b>
-                            <br>
-                            (InCACCT-2024) <br> IEEE</p>
-                        <a class="button" href="https://ieeexplore.ieee.org/document/10551108"
-                           target="blank">
-                            <b style="color:hotpink"> See Publication</b></a>
-
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <p><b>Sampling Approaches for Imbalanced Data Classification Problem in Machine Learning </b>
-                            <br>
-                            (ICRIC-2019) <br> Springer</p>
-                        <a class="button" href="https://link.springer.com/chapter/10.1007/978-3-030-29407-6_17"
-                           target="blank">
-                            <b style="color:hotpink"> See Publication</b></a>
-
-                    </div>
-                </li>
-                <li>
-                    <div><p><b>Computational Techniques for Real Time Credit Card Fraud Detection</b><br> Jan 2019 <br>
-                        CNCS2019</p>
-                        <a class="button" href="https://link.springer.com/chapter/10.1007/978-3-030-22277-2_26"
-                           target="blank">
-                            <b style="color:hotpink"> See Publication</b></a>
-
-                    </div>
-                </li>
-                <li>
-                    <div><p><b>Performance Evaluation of Machine Learning Algorithms for Credit Card Fraud
-                        Detection </b><br> Confluence-2019<br> IEEE</p> <a
-                            class="button" href="https://ieeexplore.ieee.org/document/8776925" target="blank">
-                        <b style="color:hotpink"> See Publication</b></a>
-                    </div>
-                </li>
-                <li>
-                    <div><p><b>Neıghbors On Lıne (NoL): An Approach to Balance Skewed Datasets</b><br>ICIMMI-2019 <br>Springer
-                    </p>
-                        <a class="button" href="http://www.icimmi.poornima.org/icimmi2019/ICIMMI/publication.html"
-                           target="blank">
-                            <b style="color:hotpink"> See Publication </b> </a>
-                    </div>
-                </li>
-            </ul>
-        </section>
-
-        <!-- Skills  -->
-        <section class="main special" id="skills">
-            <header class="major">
-                <h2>Skills</h2>
-                <p>Technologies that I have experience on</p>
-            </header>
-            <footer class="major">
-
-                <ul class="statistics">
-                    <li class="style1">
-                        <span class="icon"></span>
-                        NLP | ML | DS | Web Scrapping
-                    </li>
-                    <li class="style2">
-                        <span class="icon"></span>
-                        Docker | Flask
-                    </li>
-                    <li class="style3">
-                        <span class="icon"></span>
-                        HTML | CSS | JS
-                    </li>
-                    <li class="style4">
-                        <span class="icon"></span>
-                        Redis | SQL | Kafka | Airflow Dags
-                    </li>
-                    <li class="style5">
-                        <span class="icon"></span>
-                        Kibana | Logger
-                    </li>
-                </ul>
-
-
-            </footer>
-        </section>
+          </div>
+        </form>
+      </div><!-- End Contact Form -->
 
     </div>
 
-    <!-- Footer -->
-    <footer id="footer">
-        <section>
-            <h2>More About Me</h2>
-            <p> Analytics professional with three plus years of experience in solving real business problems using Data
-                Science & Machine Learning. Get in touch for collaborations.</p>
-            <ul class="actions">
-                <a class="button" href="mailto: shivani.tg94@yahoo.com" target="blank">Email Now</a>
-            </ul>
-        </section>
-        <section>
-            <h2>Contact Information</h2>
-            <dl class="alt">
-                <dt>Name:</dt>
-                <dd>Shivani Tyagi</dd>
-                <dt>E-mail:</dt>
-                <dd>shivani.tg94@yahoo.com</dd>
+  </div>
 
-            </dl>
-            <ul class="icons">
-                <li><a href="https://www.linkedin.com/in/shivani-tyagi-09/"><img height="40px" src="images/linkedin.png"
-                                                                                 width="40px"/><span
-                        class="label"></span></a></li>
-                <li><a href="https://github.com/SHIVITG"><img height="50px" src="images/github.jpg" width="50px"/><span
-                        class="label"></span></a></li>
-                <li><a href="mailto: shivani.tg94@yahoo.com"><img height="40px" src="images/email.png"
-                                                                  width="40px"/><span class="label"></span></a></li>
-                <li><a href="https://www.upwork.com/freelancers/~019f7c5b2ce7b776aa?viewMode=1"><img
-                        height="40px" src="images/upwork.jpg" width="40px"/><span class="label"></span></a></li>
-            </ul>
-        </section>
+</section><!-- /Contact Section -->
 
-    </footer>
 
-</div>
 
-<!-- Scripts -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery.scrollex.min.js"></script>
-<script src="assets/js/jquery.scrolly.min.js"></script>
-<script src="assets/js/skel.min.js"></script>
-<script src="assets/js/util.js"></script>
-<!--[if lte IE 8]>
-<script src="assets/js/ie/respond.min.js"></script><![endif]-->
-<script src="assets/js/main.js"></script>
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container">
+
+      <div class="credits">
+        Designed by Shivani Tyagi
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
 
-<script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-0000000000-1', 'auto');
-    ga('send', 'pageview');
-
-</script>
 </html>
